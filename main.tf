@@ -6,6 +6,7 @@ module "vpc" {
 
 module "ec2" {
     source = "./ec2"
-    subnet-used = module.vpc.subnet-reference
-    security_group-used = module.vpc.security-group-reference  
+    subnet-referenced = module.vpc.subnet-reference
+    security_group-referenced = module.vpc.security-group-reference
 }
+
