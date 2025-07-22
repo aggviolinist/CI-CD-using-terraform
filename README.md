@@ -47,3 +47,13 @@ git add .
 git commit -m "initial commit"
 git push -u origin dev
 ```
+
+
+
+
+git-filter-repo --sensitive-data-removal --invert-paths --path variable.tf
+git push --force --all  origin
+git pull
+git add .
+git commit -m "removing variable files"
+git push
