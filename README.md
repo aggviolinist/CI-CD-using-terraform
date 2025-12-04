@@ -32,6 +32,7 @@ git init
 - Add the gitlab remote repo
 ```sh
 git remote add origin https://gitlab.com/xxxxxxxxxx
+git remote set-url origin https://github.com/xxxxxxx
 ```
 - Check the status of the repo
 ```sh
